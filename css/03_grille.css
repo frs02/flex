@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+.mx-auto{
+margin: auto;
+text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+/* notre grille de 12 colonnes */
+/* on définit la largeur des colonnes en % :
+On calcule la première colonne =100 que l'on multipliera*/
+
+.col-1{
+    width: 8.3333%;
+    padding: 4px;
+}
+
+.col-2{
+    width: 16.6666%;
+    padding: 4px;
+}
+
+.col-3{
+    width: 25%;
+    padding: 4px;
+}
+
+.col-4{
+    width: 33.333333%;
+    padding: 4px;
+}
+
+.col-5{
+    width: 41.666666%;
+    padding: 4px;
+}
+
+.col-6{
+    width: 50%;
+    padding: 4px;
+}
+
+.col-7{
+    width: 58.33333%;
+    padding: 4px;
+}
+
+.col-8{
+    width: 66.666666%;
+    padding: 4px;
+}
+
+.col-9{
+    width: 75%;
+    padding: 4px;
+}
+
+.col-10{
+    width: 83.33333%;
+    padding: 4px;
+}
+
+.col-11{
+    width: 91.666666%;
+    padding: 4px;
+}
+
+.col-12{
+    width: 100%;
+    padding: 4px;
+}
+.gras {
+    font-weight: bolder;
+    font-size: 2em;
+}
+.brun{
+    background: rgb(77, 48, 16);color: white;
+}
+
+.marron{
+    background-color: rgb(107, 57, 0);color: white;
+}
+
+.bordeaux{
+    background-color: rgb(151, 0, 0);color: white;
+}
+
+.rouge{
+    background-color: red;color: white;
+}
+
+.orange{
+    background-color: orangered;
+}
+
+.orangeClair{
+    background-color: orange;
+}
+
+.jaune{
+    background-color: yellow;
+}
+
+.vertClair{
+background-color: rgb(0, 246, 0);
+}
+
+.vertFonce{
+    background-color: green;
+}
+
+.bleuFonce{
+    background-color: blue;
+}
+
+.bleuClair{
+    background-color: rgb(141, 154, 231);
+}
+
+.lavande{
+    background-color: lavender;
+}

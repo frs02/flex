@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* notre grille de 12 colonnes */
+/* on définit la largeur des colonnes en % :
+On calcule la première colonne =100 que l'on multipliera*/
+
+.col-1{
+    width: 8.3333%;
+    padding: 4px;
+}
+
+.col-2{
+    width: 16.6666%;
+    padding: 4px;
+}
+
+.col-3{
+    width: 25%;
+    padding: 4px;
+}
+
+.col-4{
+    width: 33.333333%;
+    padding: 4px;
+}
+
+.col-5{
+    width: 41.666666%;
+    padding: 4px;
+}
+
+.col-6{
+    width: 50%;
+    padding: 4px;
+}
+
+.col-7{
+    width: 58.33333%;
+    padding: 4px;
+}
+
+.col-8{
+    width: 66.666666%;
+    padding: 4px;
+}
+
+.col-9{
+    width: 75%;
+    padding: 4px;
+}
+
+.col-10{
+    width: 83.33333%;
+    padding: 4px;
+}
+
+.col-11{
+    width: 91.666666%;
+    padding: 4px;
+}
+
+.col-12{
+    width: 100%;
+    padding: 4px;
+}
+.orange{
+    background-color: orange;
+}
+.vertClair{
+background-color: rgb(0, 246, 0);
+}
+
+
+.lavande{
+    background-color: lavender;
+}
+
+.center{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}

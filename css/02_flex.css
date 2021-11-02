@@ -1,0 +1,37 @@
+.rouge{
+    background-color: red;
+    color: white;
+}
+
+.orange{
+    background-color: orangered;
+    color: white;
+}
+
+.orangeClair{
+    background-color: orange;
+}
+
+.jaune{
+    background-color: rgb(255, 230, 0);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.colonne{
+    display: flex;
+    flex-direction: column;
+}
+
+.colonne-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
